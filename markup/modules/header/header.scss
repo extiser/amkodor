@@ -1,0 +1,50 @@
+.header {
+	position: relative;
+
+	padding-top: 4px;
+
+	border-top: 2px solid $blue;
+
+	@include cf;
+	&__wrapper {
+		@extend .wrapper;
+	}
+}
+
+.logo {
+	display: block;
+	float: left;
+	&--header {
+		@include bg($logo-header);
+	}
+	&--footer {
+		@include bg($logo-footer);
+	}
+}
+
+.description {
+	float: left;
+
+	margin-top: 17px;
+	margin-left: 12px;
+	padding-left: 17px;
+
+	border-left: 1px solid #000;
+	span {
+		display: block;
+
+		color: #585858;
+
+		font-size: em(13px);
+		line-height: 1;
+		&:first-child {
+			text-transform: uppercase;
+		}
+	}
+	&--footer {
+		border-left-color: #fff;
+		span {
+			color: #fff;
+		}
+	}
+}

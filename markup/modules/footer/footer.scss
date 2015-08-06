@@ -1,0 +1,42 @@
+.footer {
+	padding: 10px 0;
+
+	background: $blue;
+
+	@include cf;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__copyright {
+		float: left;
+
+		margin-top: 20px;
+		margin-left: 240px;
+
+		color: #fff;
+
+		font-size: em(16px);
+	}
+	&__license {
+		float: right;
+
+		margin-top: 10px;
+
+		text-align: right;
+
+		color: #fff;
+
+		font-size: em(13px);
+		a {
+			display: block;
+
+			color: #f3f3f3;
+
+			font-family: "PTSans-Italic";
+			font-size: em(16px, 13px);
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

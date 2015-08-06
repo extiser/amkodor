@@ -1,0 +1,8 @@
+mixin news-line()
+	section.news-line
+		.news-line__wrapper
+			- for(var i = 0; i < 4; i++) {
+			a(href="#" title="").news-line-item
+				img(src="%=staticPrefix=%images/content/news-line.jpg" alt="").news-line-item__img
+				.news-line-item__description 7250 TTV WARRIOR. Powerful radiance
+			- }

@@ -1,0 +1,12 @@
+mixin slider()
+	section.slider#slider
+		- for (var i = 0; i < 4; i++) {
+		.slider-item
+			img(src="%=staticPrefix=%images/content/slider1.jpg" alt="").slider-item__img
+			.slider-item__description
+				.wrapper
+					.slider-item__title Brand history
+					p The long tradition of DEUTZ-FAHR is closely associated with one particular name.
+					p Nicolaus August Otto founded the Motorenfabrik N.A. Otto &amp; Cie.
+					p Klöckner-Humboldt-Deutz AG (KHD), in Cologne in 1864, and shortly afterwards he invented the first four-stroke combustion engine.
+		- }

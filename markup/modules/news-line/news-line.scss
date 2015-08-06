@@ -1,0 +1,59 @@
+.news-line {
+	padding: 10px 0;
+
+	background: $yellow url(%=staticPrefixForCss=%/general/news-line.png) no-repeat center center;
+
+	@include cf;
+	&__wrapper {
+		@extend .wrapper;
+	}
+}
+
+.news-line-item {
+	position: relative;
+
+	display: block;
+	float: left;
+	overflow: hidden;
+
+	width: 275px;
+	height: 104px;
+	margin-right: 20px;
+
+	color: #fff;
+	&:last-child {
+		margin-right: 0;
+	}
+	&:hover {
+		.news-line-item__img {
+			top: -5%;
+			left: -5%;
+
+			width: 110%;
+			height: 110%;
+		}
+	}
+	&__img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+		margin: auto;
+
+		transition: all 1s ease;
+	}
+	&__description {
+		position: absolute;
+		bottom: 0;
+
+		padding: 8px 10px;
+
+		background-color: rgba(0, 0, 0, .45);
+
+		font-size: em(13px);
+	}
+}

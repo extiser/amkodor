@@ -1,0 +1,15 @@
+mixin footer(data)
+	footer.footer
+		.footer__wrapper
+			.logo.logo--footer
+			.description.description--footer
+				span ХОЛДИНГ АМКОДОР
+				span Сегодня и всегда
+			.footer__copyright Copyright © 2015 Все права защищены
+			.footer__license Сайт разработан командой
+				a(href="#" title="") Astanacreative.kz
+	.mask
+	//- Main scripts. You can replace it, but I recommend you to leave it here
+	script(src='http://yastatic.net/jquery/1.11.2/jquery.min.js')
+	script(src='http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js')
+	script(src='%=staticPrefix=%js/main%=hash=%%=min=%.js')

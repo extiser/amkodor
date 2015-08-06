@@ -1,0 +1,66 @@
+.main-block {
+	padding-bottom: 15px;
+
+	@include cf;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__title {
+		margin-top: 8px;
+		margin-bottom: 12px;
+		padding-bottom: 5px;
+
+		text-transform: uppercase;
+
+		color: $blue;
+		border-bottom: 2px solid $blue;
+
+		font-family: "PTSans-Bold";
+		font-size: em(28px);
+	}
+	&__text {
+		display: inline;
+
+		color: #555;
+
+		font-size: em(16px);
+		line-height: em(21px, 16px);
+	}
+	&__link {
+		display: block;
+		float: right;
+
+		margin-top: 15px;
+
+		color: $yellow;
+
+		font-family: "PTSans-Italic";
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__img {
+		float: right;
+
+		width: 500px;
+		height: auto;
+		margin-left: 15px;
+	}
+	&.yellow {
+		color: #fff;
+		background-color: $yellow;
+		.main-block__title,
+		.main-block__text {
+			color: #fff;
+		}
+		.main-block__title {
+			border-bottom-color: #fff;
+		}
+		.main-block__img {
+			float: left;
+
+			margin-right: 15px;
+			margin-left: 0;
+		}
+	}
+}
