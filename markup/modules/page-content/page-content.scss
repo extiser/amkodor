@@ -1,0 +1,17 @@
+.page-content {
+	padding-bottom: 20px;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	h1 {
+		@extend .title;
+	}
+	p {
+		margin-bottom: 10px;
+
+		color: #555;
+
+		font-size: em(16px);
+		line-height: em(21px, 16px);
+	}
+}

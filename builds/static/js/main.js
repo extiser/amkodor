@@ -1,14 +1,3 @@
-$(document).ready(function () {
-    $('#slider').slick({
-        speed: 1300,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 6000,
-        arrows: false,
-        draggable: true
-    });
-});
 jQuery(document).ready(function ($) {
     $('.top-menu__item').click(function () {
         if ($(this).hasClass('active')) {
@@ -26,5 +15,16 @@ jQuery(document).ready(function ($) {
     });
     $('.mask').click(function () {
         $('.top-menu-inside, .top-menu__item, .mask').removeClass('active');
+    });
+});
+$(document).ready(function () {
+    $('#slider').slick({
+        speed: 1300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        arrows: false,
+        draggable: true
     });
 });

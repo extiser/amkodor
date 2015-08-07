@@ -6,17 +6,7 @@
 		@extend .wrapper;
 	}
 	&__title {
-		margin-top: 8px;
-		margin-bottom: 12px;
-		padding-bottom: 5px;
-
-		text-transform: uppercase;
-
-		color: $blue;
-		border-bottom: 2px solid $blue;
-
-		font-family: "PTSans-Bold";
-		font-size: em(28px);
+		@extend .title;
 	}
 	&__text {
 		display: inline;
