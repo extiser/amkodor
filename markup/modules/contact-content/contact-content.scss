@@ -1,0 +1,69 @@
+.contact-content {
+	padding-bottom: 15px;
+
+	@include cf;
+	&__wrapper {
+		@extend .wrapper;
+	}
+	&__title {
+		@extend .title;
+	}
+	&__items {
+		float: left;
+		a {
+			color: $blue;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	&__item {
+		margin-bottom: 12px;
+
+		color: #555;
+
+		font-size: em(16px);
+		span {
+			color: #222;
+
+			font-family: "PTSans-Bold";
+		}
+	}
+	&__social-items {
+		margin-top: 20px;
+		padding-top: 20px;
+
+		border-top: 1px solid #ccc;
+	}
+	&__social {
+		position: relative;
+		left: 32px;
+
+		display: block;
+
+		margin-bottom: 15px;
+		&:before {
+			left: -32px;
+
+			@include content;
+		}
+		&--vk {
+			&:before {
+				@include bg($vk);
+			}
+		}
+		&--tw {
+			&:before {
+				@include bg($tw);
+			}
+		}
+		&--gp {
+			&:before {
+				@include bg($gp);
+			}
+		}
+	}
+	&__map {
+		float: right;
+	}
+}
