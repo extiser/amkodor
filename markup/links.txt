@@ -1,0 +1,8 @@
+http://extiser.github.io/amkodor/builds/index.html
+http://extiser.github.io/amkodor/builds/history.html
+http://extiser.github.io/amkodor/builds/contact.html
+http://extiser.github.io/amkodor/builds/catalog.html
+http://extiser.github.io/amkodor/builds/catalog-table.html
+http://extiser.github.io/amkodor/builds/sertificate.html
+http://extiser.github.io/amkodor/builds/structure.html
+http://extiser.github.io/amkodor/builds/structure-inner.html
