@@ -13,10 +13,21 @@
 }
 
 .cart-content-modification {
+	position: relative;
 	margin-bottom: 40px;
 
 	@include cf;
+	&__all {
+		position: absolute;
+		right: 0;
+		color: #212121;
+		font-size: em(14px);
+		&:hover {
+			text-decoration: none;
+		}
+	}
 	&__item {
+		margin-top: 30px;
 		float: left;
 
 		width: 20%;

@@ -363,6 +363,7 @@ html, body {
   text-justify: newspaper; }
 
 .cart-content-modification {
+  position: relative;
   margin-bottom: 40px; }
   .cart-content-modification:before, .cart-content-modification:after {
     display: table;
@@ -371,7 +372,15 @@ html, body {
     clear: both; }
   .lt-ie8 .cart-content-modification {
     zoom: 1; }
+  .cart-content-modification__all {
+    position: absolute;
+    right: 0;
+    color: #212121;
+    font-size: 0.875em; }
+    .cart-content-modification__all:hover {
+      text-decoration: none; }
   .cart-content-modification__item {
+    margin-top: 30px;
     float: left;
     width: 20%;
     text-align: center; }
