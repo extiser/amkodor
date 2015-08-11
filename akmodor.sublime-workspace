@@ -4,15 +4,7 @@
 		"selected_items":
 		[
 			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"marg",
-				"margin-top"
-			],
-			[
-				"margin",
+				"marign",
 				"margin-bottom"
 			],
 			[
@@ -20,24 +12,64 @@
 				"text-decoration"
 			],
 			[
-				"con",
-				"contact-content"
+				"pad",
+				"padding"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"se",
+				"sertificate-content"
+			],
+			[
+				"st",
+				"structure-inner-content"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin"
 			],
 			[
 				"fon",
 				"font-size"
 			],
 			[
+				"cata",
+				"catalog-content-product"
+			],
+			[
+				"catal",
+				"catalog-tabs-content-box"
+			],
+			[
+				"fn",
+				"font-family"
+			],
+			[
+				"cat",
+				"catalog-tabs-content"
+			],
+			[
+				"ca",
+				"catalog-tabs-content"
+			],
+			[
+				"con",
+				"contact-content"
+			],
+			[
 				"s",
 				"structure-content-item"
-			],
-			[
-				"st",
-				"structure-content-item"
-			],
-			[
-				"marign",
-				"margin"
 			],
 			[
 				"sli",
@@ -86,10 +118,6 @@
 			[
 				"i",
 				"italic"
-			],
-			[
-				"fn",
-				"font-style"
 			],
 			[
 				"a",
@@ -184,10 +212,6 @@
 				"outline"
 			],
 			[
-				"ca",
-				"carousel"
-			],
-			[
 				"c",
 				"carousel__item"
 			],
@@ -234,10 +258,6 @@
 			[
 				"vk",
 				"vk-comments__user"
-			],
-			[
-				"v",
-				"vk-comments"
 			],
 			[
 				"vo",
@@ -452,10 +472,6 @@
 				"no-repeat"
 			],
 			[
-				"se",
-				"service-car"
-			],
-			[
 				"ser",
 				"service"
 			],
@@ -498,22 +514,6 @@
 			[
 				"sl",
 				"slide-line"
-			],
-			[
-				"fir",
-				"firm-page--pattern"
-			],
-			[
-				"fi",
-				"firm-press"
-			],
-			[
-				"f",
-				"firm-collections--pattern"
-			],
-			[
-				"cn",
-				"container-fluid"
 			]
 		]
 	},
@@ -593,22 +593,34 @@
 	[
 		"/Users/extiser/git/amkodor/markup",
 		"/Users/extiser/git/amkodor/markup/modules",
-		"/Users/extiser/git/amkodor/markup/modules/contact-content",
-		"/Users/extiser/git/amkodor/markup/modules/include",
 		"/Users/extiser/git/amkodor/markup/pages",
 		"/Users/extiser/git/amkodor/markup/static"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor/markup/links.txt",
+		"/Users/extiser/git/amkodor/markup/pages/sertificate.jade",
+		"/Users/extiser/git/amkodor/markup/modules/sertificate-content/sertificate-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/sertificate-content/sertificate-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/structure-inner-content/structure-inner-content.jade",
+		"/Users/extiser/git/amkodor/markup/pages/structure-inner.jade",
+		"/Users/extiser/git/amkodor/markup/pages/catalog.jade",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content/catalog-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-table-content/catalog-table-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content/catalog-table-content.js",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-table-content/catalog-table-content.jade",
+		"/Users/extiser/git/amkodor/markup/pages/catalog-table.jade",
 		"/Users/extiser/git/amkodor/markup/pages/contact.jade",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
 		"/Users/extiser/git/amkodor/markup/pages/history.jade",
 		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/history-content/history-content.jade",
 		"/Users/extiser/git/amkodor/markup/pages/structure.jade",
 		"/Users/extiser/git/amkodor/markup/modules/main-block/main-block.scss",
@@ -713,21 +725,7 @@
 		"/Users/extiser/git/ruslib/markup/modules/registration/registration.jade",
 		"/Users/extiser/git/ruslib/markup/modules/registration/registration.scss",
 		"/Users/extiser/git/ruslib/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.scss",
-		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.jade",
-		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.scss",
-		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-read.jade",
-		"/Users/extiser/git/ruslib/markup/pages/single-listen.jade",
-		"/Users/extiser/git/ruslib/markup/modules/singleBook/singleBook.scss",
-		"/Users/extiser/git/ruslib/markup/modules/similarBooks/similarBooks.jade",
-		"/E/Git/ruslib/markup/static/scss/GUI.scss",
-		"/E/Git/ruslib/builds/index.html",
-		"/E/Git/ruslib/markup/modules/_bookBlockHorizontal/_bookBlockHorizontal.scss",
-		"/E/Git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
-		"/E/Git/ruslib/markup/modules/authors/authors.jade",
-		"/E/Git/ruslib/markup/modules/authors/authors.scss",
-		"/E/Git/ruslib/markup/modules/genresList/genresList.scss"
+		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.scss"
 	],
 	"find":
 	{
@@ -746,6 +744,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"https",
 			"</p>",
 			"			<p>",
 			"@media screen and (max-width: 768px) {",
@@ -872,8 +871,7 @@
 			"-webkit-appearance: textfield;",
 			".form__element",
 			".form",
-			"form",
-			"acccentre.ru"
+			"form"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -881,6 +879,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http",
 			"",
 			"p ",
 			"p",
@@ -1007,8 +1006,7 @@
 			"images",
 			"font",
 			"",
-			"/images/",
-			"/font/"
+			"/images/"
 		],
 		"reverse": false,
 		"show_context": false,

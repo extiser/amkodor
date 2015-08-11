@@ -1,0 +1,44 @@
+.cart-content {
+	&__wrapper {
+		@extend .wrapper;
+	}
+	h1,
+	h2 {
+		@extend .title;
+	}
+	p {
+		@extend .paragraph;
+		@include blocks-justify;
+	}
+}
+
+.cart-content-modification {
+	margin-bottom: 40px;
+
+	@include cf;
+	&__item {
+		float: left;
+
+		width: 20%;
+
+		text-align: center;
+		img {
+			display: block;
+
+			margin: auto;
+		}
+	}
+	&__link {
+		display: block;
+
+		text-decoration: underline;
+		text-transform: uppercase;
+
+		color: $blue;
+
+		font-family: "PTSans-Bold";
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
