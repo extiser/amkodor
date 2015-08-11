@@ -1,0 +1,35 @@
+.sertificate-content {
+	&__wrapper {
+		@extend .wrapper;
+	}
+	h1 {
+		@extend .title;
+	}
+}
+
+.sertificate-table {
+	margin-bottom: 40px;
+	tr {
+		border-bottom: 1px solid #cecece;
+	}
+	td {
+		width: 33%;
+		padding: 20px 0;
+
+		text-align: center;
+		vertical-align: top;
+		img {
+			display: block;
+
+			margin: auto;
+		}
+		a {
+			text-transform: uppercase;
+
+			color: $blue;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

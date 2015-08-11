@@ -1,0 +1,12 @@
+mixin catalog-content()
+	section.catalog-content
+		.catalog-content__wrapper
+			h1 Каталог продукции
+
+			- for(var i = 0; i < 7; i++) {
+			.catalog-content-product
+				.catalog-content-product__img
+					img(src="%=staticPrefix=%images/content/catalog-item.jpg" alt="")
+				a(href="#" title="").catalog-content-product__link Экскаваторы на собственном шасси
+				a(href="#" title="").catalog-content-product__category Быстросменные рабочие органы
+			- }

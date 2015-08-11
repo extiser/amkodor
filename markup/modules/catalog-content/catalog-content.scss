@@ -1,0 +1,41 @@
+.catalog-content {
+	&__wrapper {
+		@extend .wrapper;
+		@include cf;
+	}
+	h1 {
+		@extend .title;
+	}
+}
+
+.catalog-content-product {
+	float: left;
+
+	width: 33%;
+	margin: 20px 0;
+
+	text-align: center;
+	&__link {
+		display: block;
+
+		text-decoration: underline;
+		text-transform: uppercase;
+
+		color: $blue;
+
+		font-family: "PTSans-Bold";
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__category {
+		text-transform: uppercase;
+
+		color: #212121;
+
+		font-size: em(14px);
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

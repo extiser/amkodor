@@ -4,20 +4,44 @@
 		"selected_items":
 		[
 			[
-				"marign",
-				"margin"
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
 			],
 			[
 				"margin",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"con",
+				"contact-content"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"s",
+				"structure-content-item"
+			],
+			[
+				"st",
+				"structure-content-item"
+			],
+			[
+				"marign",
 				"margin"
 			],
 			[
 				"sli",
 				"slider-item"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"new",
@@ -32,10 +56,6 @@
 				"top-menu-inside__title"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
 				"text",
 				"text-transform"
 			],
@@ -44,16 +64,8 @@
 				"border-bottom-color"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"border-co",
 				"border-color"
-			],
-			[
-				"con",
-				"content"
 			],
 			[
 				"border-c",
@@ -78,10 +90,6 @@
 			[
 				"fn",
 				"font-style"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"a",
@@ -270,10 +278,6 @@
 			[
 				"gen",
 				"genresListSidebar"
-			],
-			[
-				"s",
-				"support-devices"
 			],
 			[
 				"bre",
@@ -510,10 +514,6 @@
 			[
 				"cn",
 				"container-fluid"
-			],
-			[
-				"m",
-				"margin-top"
 			]
 		]
 	},
@@ -591,10 +591,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/amkodor/markup"
+		"/Users/extiser/git/amkodor/markup",
+		"/Users/extiser/git/amkodor/markup/modules",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content",
+		"/Users/extiser/git/amkodor/markup/modules/include",
+		"/Users/extiser/git/amkodor/markup/pages",
+		"/Users/extiser/git/amkodor/markup/static"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor/markup/pages/contact.jade",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
+		"/Users/extiser/git/amkodor/markup/pages/history.jade",
+		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/history-content/history-content.jade",
+		"/Users/extiser/git/amkodor/markup/pages/structure.jade",
+		"/Users/extiser/git/amkodor/markup/modules/main-block/main-block.scss",
+		"/Users/extiser/git/amkodor/markup/static/scss/common.scss",
 		"/Users/extiser/git/amkodor/markup/modules/slider/slider.js",
 		"/Users/extiser/git/amkodor/markup/pages/index.jade",
 		"/Users/extiser/git/amkodor/markup/modules/slider/slider.jade",
@@ -602,13 +620,11 @@
 		"/Users/extiser/git/amkodor/markup/modules/head/head.jade",
 		"/Users/extiser/git/amkodor/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/gsb/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
 		"/Users/extiser/git/amkodor/markup/modules/header/header.scss",
 		"/Users/extiser/git/amkodor/markup/modules/news-line/news-line.scss",
 		"/Users/extiser/git/amkodor/markup/modules/news-line/news-line.jade",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/amkodor/markup/static/scss/common.scss",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.js",
 		"/Users/extiser/git/amkodor/markup/modules/header/header.jade",
 		"/Users/extiser/git/amkodor/markup/modules/!include/include.jade",
@@ -711,18 +727,7 @@
 		"/E/Git/ruslib/markup/modules/_bookBlockVertical/_bookBlockVertical.scss",
 		"/E/Git/ruslib/markup/modules/authors/authors.jade",
 		"/E/Git/ruslib/markup/modules/authors/authors.scss",
-		"/E/Git/ruslib/markup/modules/genresList/genresList.scss",
-		"/E/Git/ruslib/markup/modules/genresList/genresListMain.jade",
-		"/E/Git/ruslib/markup/pages/authors.jade",
-		"/E/Git/eagleeye/layout/static/css/style.css",
-		"/E/Git/eagleeye/layout/index.jade",
-		"/E/Git/eagleeye/layout/static/css/carousel.css",
-		"/E/Git/svadbavo-2015/dev/sass/base/_config.scss",
-		"/E/Git/akado/markup/modules/head/head.jade",
-		"/C/Users/Руслан/Desktop/style.css",
-		"/C/Dropbox/Sites/sovets_woman/sass/screen.scss",
-		"/E/Git/wspeaks/markup/static/scss/GUI.scss",
-		"/E/Git/wspeaks/markup/static/scss/common.scss"
+		"/E/Git/ruslib/markup/modules/genresList/genresList.scss"
 	],
 	"find":
 	{
@@ -741,6 +746,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"</p>",
+			"			<p>",
 			"@media screen and (max-width: 768px) {",
 			"@media screen and (max-width: 480px) {",
 			";\n",
@@ -866,9 +873,7 @@
 			".form__element",
 			".form",
 			"form",
-			"acccentre.ru",
-			"acccentre.iqdemo.ru",
-			"strong"
+			"acccentre.ru"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -876,6 +881,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"p ",
+			"p",
 			"@media screen and (max-width: 800px) {",
 			"@media screen and (max-width: 768px) {",
 			"Lato-Thin",
@@ -1000,8 +1008,7 @@
 			"font",
 			"",
 			"/images/",
-			"/font/",
-			"сервиса"
+			"/font/"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1060,7 +1067,7 @@
 	"project": "akmodor.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

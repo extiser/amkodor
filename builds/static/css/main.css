@@ -331,7 +331,7 @@ html, body {
   height: 100%;
   font-family: "PTSans-Regular"; }
 
-.wrapper, .contact-content__wrapper, .footer__wrapper, .header__wrapper, .main-block__wrapper, .news-line__wrapper, .page-content__wrapper, .structure-content__wrapper, .top-menu-inside__wrapper {
+.wrapper, .catalog-content__wrapper, .catalog-table-content__wrapper, .contact-content__wrapper, .footer__wrapper, .header__wrapper, .main-block__wrapper, .news-line__wrapper, .page-content__wrapper, .sertificate-content__wrapper, .structure-content__wrapper, .top-menu-inside__wrapper {
   width: 1160px;
   margin: auto; }
 
@@ -347,7 +347,7 @@ html, body {
   .mask.active {
     display: block; }
 
-.title, .contact-content__title, .main-block__title, .page-content h1, .structure-content__title {
+.title, .catalog-content h1, .catalog-table-content h1, .contact-content__title, .main-block__title, .page-content h1, .sertificate-content h1, .structure-content__title {
   margin-top: 8px;
   margin-bottom: 12px;
   padding-bottom: 5px;
@@ -357,6 +357,78 @@ html, body {
   font-family: "PTSans-Bold";
   font-size: 1.75em;
   font-weight: normal; }
+
+.catalog-content__wrapper:before, .catalog-content__wrapper:after {
+  display: table;
+  content: ""; }
+.catalog-content__wrapper:after {
+  clear: both; }
+.lt-ie8 .catalog-content__wrapper {
+  zoom: 1; }
+
+.catalog-content-product {
+  float: left;
+  width: 33%;
+  margin: 20px 0;
+  text-align: center; }
+  .catalog-content-product__link {
+    display: block;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #01407f;
+    font-family: "PTSans-Bold"; }
+    .catalog-content-product__link:hover {
+      text-decoration: none; }
+  .catalog-content-product__category {
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 0.875em; }
+    .catalog-content-product__category:hover {
+      text-decoration: none; }
+
+.catalog-tabs__item {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 2px 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #fff;
+  background: #f8b227;
+  font-family: "PTSans-Bold";
+  font-size: 1em; }
+  .catalog-tabs__item:hover, .catalog-tabs__item.active {
+    cursor: pointer;
+    text-decoration: none;
+    background: #01407f; }
+
+.catalog-tabs-content .catalog-tabs-content-box {
+  display: none; }
+  .catalog-tabs-content .catalog-tabs-content-box.active {
+    display: block; }
+.catalog-tabs-content__img {
+  display: inline-block;
+  width: 15%;
+  padding-top: 25px;
+  text-align: center;
+  vertical-align: top; }
+.catalog-tabs-content__wrapper {
+  margin-top: 20px; }
+.catalog-tabs-content__table {
+  display: inline-block;
+  width: 84%;
+  padding-bottom: 50px;
+  vertical-align: top; }
+  .catalog-tabs-content__table table th, .catalog-tabs-content__table table td {
+    padding: 8px 0;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 0.875em; }
+  .catalog-tabs-content__table table th {
+    font-family: "PTSans-Bold"; }
+  .catalog-tabs-content__table table td {
+    padding-left: 15px; }
+  .catalog-tabs-content__table table tfoot td {
+    padding-left: 0; }
 
 .contact-content {
   padding-bottom: 15px; }
@@ -582,11 +654,43 @@ html, body {
 
 .page-content {
   padding-bottom: 20px; }
+  .page-content h2 {
+    font-size: 1.3125em; }
+  .page-content h3 {
+    text-transform: uppercase;
+    font-size: 1.125em; }
   .page-content p {
     margin-bottom: 10px;
     color: #555;
     font-size: 1em;
     line-height: 1.3125em; }
+  .page-content img[align="left"] {
+    margin-right: 20px; }
+  .page-content div:before, .page-content div:after {
+    display: table;
+    content: ""; }
+  .page-content div:after {
+    clear: both; }
+  .lt-ie8 .page-content div {
+    zoom: 1; }
+
+.sertificate-table {
+  margin-bottom: 40px; }
+  .sertificate-table tr {
+    border-bottom: 1px solid #cecece; }
+  .sertificate-table td {
+    width: 33%;
+    padding: 20px 0;
+    text-align: center;
+    vertical-align: top; }
+    .sertificate-table td img {
+      display: block;
+      margin: auto; }
+    .sertificate-table td a {
+      text-transform: uppercase;
+      color: #01407f; }
+      .sertificate-table td a:hover {
+        text-decoration: none; }
 
 .slider {
   width: 100%;
