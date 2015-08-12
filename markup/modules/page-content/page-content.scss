@@ -25,6 +25,10 @@
 	img[align="left"] {
 		margin-right: 20px;
 	}
+	img[align="center"] {
+		display: block;
+		margin: 20px auto;
+	}
 	div {
 		@include cf;
 	}

@@ -704,6 +704,9 @@ html, body {
     line-height: 1.3125em; }
   .page-content img[align="left"] {
     margin-right: 20px; }
+  .page-content img[align="center"] {
+    display: block;
+    margin: 20px auto; }
   .page-content div:before, .page-content div:after {
     display: table;
     content: ""; }
