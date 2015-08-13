@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"se",
+				"service-content"
+			],
+			[
 				"marign",
-				"margin-bottom"
+				"margin-top"
 			],
 			[
 				"te",
 				"text-decoration"
+			],
+			[
+				"ca",
+				"cart-content-modification"
+			],
+			[
+				"car",
+				"cart-content"
 			],
 			[
 				"pad",
@@ -24,20 +40,12 @@
 				"margin"
 			],
 			[
-				"se",
-				"sertificate-content"
-			],
-			[
 				"st",
 				"structure-inner-content"
 			],
 			[
 				"marig",
 				"margin-left"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"fon",
@@ -57,10 +65,6 @@
 			],
 			[
 				"cat",
-				"catalog-tabs-content"
-			],
-			[
-				"ca",
 				"catalog-tabs-content"
 			],
 			[
@@ -510,10 +514,6 @@
 			[
 				"doc",
 				"docHeight"
-			],
-			[
-				"sl",
-				"slide-line"
 			]
 		]
 	},
@@ -593,17 +593,27 @@
 	[
 		"/Users/extiser/git/amkodor/markup",
 		"/Users/extiser/git/amkodor/markup/modules",
+		"/Users/extiser/git/amkodor/markup/modules/contact-content",
 		"/Users/extiser/git/amkodor/markup/pages",
-		"/Users/extiser/git/amkodor/markup/static"
+		"/Users/extiser/git/amkodor/markup/static",
+		"/Users/extiser/git/amkodor/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
 		"/Users/extiser/git/amkodor/markup/links.txt",
+		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor/markup/pages/service.jade",
+		"/Users/extiser/git/amkodor/markup/modules/service-content/service-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/about-content/about-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/amkodor/markup/modules/cart-content/cart-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/cart-content/cart-content.scss",
+		"/Users/extiser/git/amkodor/markup/pages/cart.jade",
 		"/Users/extiser/git/amkodor/markup/pages/sertificate.jade",
 		"/Users/extiser/git/amkodor/markup/modules/sertificate-content/sertificate-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/sertificate-content/sertificate-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
-		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/structure-inner-content/structure-inner-content.jade",
 		"/Users/extiser/git/amkodor/markup/pages/structure-inner.jade",
 		"/Users/extiser/git/amkodor/markup/pages/catalog.jade",
@@ -615,7 +625,6 @@
 		"/Users/extiser/git/amkodor/markup/modules/catalog-table-content/catalog-table-content.jade",
 		"/Users/extiser/git/amkodor/markup/pages/catalog-table.jade",
 		"/Users/extiser/git/amkodor/markup/pages/contact.jade",
-		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
@@ -635,7 +644,6 @@
 		"/Users/extiser/git/amkodor/markup/modules/header/header.scss",
 		"/Users/extiser/git/amkodor/markup/modules/news-line/news-line.scss",
 		"/Users/extiser/git/amkodor/markup/modules/news-line/news-line.jade",
-		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.scss",
 		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.js",
 		"/Users/extiser/git/amkodor/markup/modules/header/header.jade",
@@ -719,13 +727,7 @@
 		"/Users/extiser/git/gsb/.jscsrc",
 		"/Users/extiser/git/gsb/.gitignore",
 		"/Users/extiser/git/honey-bunny-html/Gemfile",
-		"/Users/extiser/git/honey-bunny-html/config.rb",
-		"/Users/extiser/git/ruslib/markup/static/scss/common.scss",
-		"/Users/extiser/git/ruslib/markup/pages/registration.jade",
-		"/Users/extiser/git/ruslib/markup/modules/registration/registration.jade",
-		"/Users/extiser/git/ruslib/markup/modules/registration/registration.scss",
-		"/Users/extiser/git/ruslib/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/ruslib/markup/modules/vk-comments/vk-comments.scss"
+		"/Users/extiser/git/honey-bunny-html/config.rb"
 	],
 	"find":
 	{

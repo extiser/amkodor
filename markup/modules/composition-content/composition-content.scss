@@ -1,0 +1,20 @@
+.composition-content-ul {
+	@include cf;
+	@include nl;
+	&__item {
+		float: left;
+
+		width: 500px;
+		margin-right: 55px;
+		margin-bottom: 11px;
+		margin-left: 1px;
+
+		font-size: em(16px);
+		a {
+			color: $blue;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
