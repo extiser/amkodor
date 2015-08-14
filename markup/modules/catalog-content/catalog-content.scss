@@ -15,6 +15,12 @@
 	margin: 20px 0;
 
 	text-align: center;
+	&__img {
+		img {
+			width: 120px;
+			height: auto;
+		}
+	}
 	&__link {
 		display: block;
 
