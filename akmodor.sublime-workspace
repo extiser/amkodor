@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"margin",
-				"margin"
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"po",
+				"product-list-content-list"
 			],
 			[
 				"se",
@@ -28,10 +44,6 @@
 				"cart-content"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"v",
 				"vertical-align"
 			],
@@ -46,10 +58,6 @@
 			[
 				"marig",
 				"margin-left"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"cata",
@@ -94,10 +102,6 @@
 			[
 				"text",
 				"text-transform"
-			],
-			[
-				"border-bo",
-				"border-bottom-color"
 			],
 			[
 				"border-co",
@@ -510,10 +514,6 @@
 			[
 				"col",
 				"col-lg-offset-1"
-			],
-			[
-				"doc",
-				"docHeight"
 			]
 		]
 	},
@@ -593,16 +593,27 @@
 	[
 		"/Users/extiser/git/amkodor/markup",
 		"/Users/extiser/git/amkodor/markup/modules",
-		"/Users/extiser/git/amkodor/markup/modules/contact-content",
+		"/Users/extiser/git/amkodor/markup/modules/structure-content",
 		"/Users/extiser/git/amkodor/markup/pages",
 		"/Users/extiser/git/amkodor/markup/static",
 		"/Users/extiser/git/amkodor/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
+		"/Users/extiser/git/amkodor/markup/pages/product-list.jade",
+		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor/markup/pages/404.jade",
+		"/Users/extiser/git/amkodor/markup/modules/p404-content/p404-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/p404-content/p404-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/composition-content/composition-content.jade",
+		"/Users/extiser/git/amkodor/markup/pages/composition.jade",
+		"/Users/extiser/git/amkodor/markup/modules/composition-content/composition-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
 		"/Users/extiser/git/amkodor/markup/links.txt",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
 		"/Users/extiser/git/amkodor/markup/pages/service.jade",
 		"/Users/extiser/git/amkodor/markup/modules/service-content/service-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
@@ -626,8 +637,6 @@
 		"/Users/extiser/git/amkodor/markup/pages/catalog-table.jade",
 		"/Users/extiser/git/amkodor/markup/pages/contact.jade",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
 		"/Users/extiser/git/amkodor/markup/pages/history.jade",
 		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/history-content/history-content.jade",
@@ -718,16 +727,7 @@
 		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.jade",
 		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.jade",
 		"/Users/extiser/git/gsb/markup/modules/objects-content/objects-content.jade",
-		"/Users/extiser/git/gsb/tars/user-tasks/s3-upload.js",
-		"/Users/extiser/git/gsb/tars-config.js",
-		"/Users/extiser/git/gsb/markup/modules/about-content/about-content.jade",
-		"/Users/extiser/git/gsb/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/gsb/markup/static/scss/normalize.scss",
-		"/Users/extiser/git/gsb/.csscomb.json",
-		"/Users/extiser/git/gsb/.jscsrc",
-		"/Users/extiser/git/gsb/.gitignore",
-		"/Users/extiser/git/honey-bunny-html/Gemfile",
-		"/Users/extiser/git/honey-bunny-html/config.rb"
+		"/Users/extiser/git/gsb/tars/user-tasks/s3-upload.js"
 	],
 	"find":
 	{
@@ -746,6 +746,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".structure-content-item",
+			".product-list-content-sidebar-category",
+			"li",
+			"</li>",
+			"			<li>",
 			"https",
 			"</p>",
 			"			<p>",
@@ -868,12 +873,7 @@
 			"Велоаксессуары",
 			"menu",
 			"bcn",
-			"<h1>",
-			"paid",
-			"-webkit-appearance: textfield;",
-			".form__element",
-			".form",
-			"form"
+			"<h1>"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -881,6 +881,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"a(href=\"#\" title=\"\").structure-content-item",
+			".product-list-content-sidebar-menu",
+			"li.composition-content-ul__item",
+			"",
+			"li ",
 			"http",
 			"",
 			"p ",
@@ -1003,11 +1008,6 @@
 			"images",
 			"font",
 			"url(PIE.htc);",
-			"/images/",
-			"/font/",
-			"images",
-			"font",
-			"",
 			"/images/"
 		],
 		"reverse": false,
