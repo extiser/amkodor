@@ -593,32 +593,35 @@
 	[
 		"/Users/extiser/git/amkodor/markup",
 		"/Users/extiser/git/amkodor/markup/modules",
-		"/Users/extiser/git/amkodor/markup/modules/structure-content",
 		"/Users/extiser/git/amkodor/markup/pages",
-		"/Users/extiser/git/amkodor/markup/static",
-		"/Users/extiser/git/amkodor/markup/static/scss"
+		"/Users/extiser/git/amkodor/markup/static"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/amkodor/markup/pages/guarantee.jade",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
+		"/Users/extiser/git/amkodor/markup/modules/guarantee-content/guarantee-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.jade",
+		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.scss",
+		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.jade",
+		"/Users/extiser/git/amkodor/markup/static/scss/etc/etc.scss",
+		"/Users/extiser/git/amkodor/markup/modules/composition-content/composition-content.jade",
+		"/Users/extiser/git/amkodor/markup/pages/composition.jade",
 		"/Users/extiser/git/amkodor/markup/modules/structure-content/structure-content.scss",
 		"/Users/extiser/git/amkodor/markup/pages/product-list.jade",
-		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
 		"/Users/extiser/git/amkodor/markup/pages/404.jade",
 		"/Users/extiser/git/amkodor/markup/modules/p404-content/p404-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/p404-content/p404-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/composition-content/composition-content.jade",
-		"/Users/extiser/git/amkodor/markup/pages/composition.jade",
 		"/Users/extiser/git/amkodor/markup/modules/composition-content/composition-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/contact-content.jade",
 		"/Users/extiser/git/amkodor/markup/links.txt",
 		"/Users/extiser/git/amkodor/markup/pages/service.jade",
 		"/Users/extiser/git/amkodor/markup/modules/service-content/service-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/about-content/about-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
 		"/Users/extiser/git/amkodor/markup/modules/cart-content/cart-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/cart-content/cart-content.scss",
 		"/Users/extiser/git/amkodor/markup/pages/cart.jade",
@@ -628,8 +631,6 @@
 		"/Users/extiser/git/amkodor/markup/modules/structure-inner-content/structure-inner-content.jade",
 		"/Users/extiser/git/amkodor/markup/pages/structure-inner.jade",
 		"/Users/extiser/git/amkodor/markup/pages/catalog.jade",
-		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/catalog-content.jade",
 		"/Users/extiser/git/amkodor/markup/modules/catalog-table-content/catalog-table-content.scss",
 		"/Users/extiser/git/amkodor/markup/modules/contact-content/catalog-table-content.js",
@@ -724,10 +725,7 @@
 		"/Users/extiser/git/gsb/markup/static/scss/vars.scss",
 		"/Users/extiser/git/gsb/markup/modules/engineering-services-content/engineering-services-content.jade",
 		"/Users/extiser/git/gsb/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.jade",
-		"/Users/extiser/git/gsb/markup/modules/main-slider-center/main-slider-center.jade",
-		"/Users/extiser/git/gsb/markup/modules/objects-content/objects-content.jade",
-		"/Users/extiser/git/gsb/tars/user-tasks/s3-upload.js"
+		"/Users/extiser/git/gsb/markup/modules/main-slider-bottom/main-slider-bottom.jade"
 	],
 	"find":
 	{
@@ -746,6 +744,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"http://extiser.github.io/amkodor/builds//",
 			".structure-content-item",
 			".product-list-content-sidebar-category",
 			"li",
@@ -872,8 +871,7 @@
 			"Велосипеды",
 			"Велоаксессуары",
 			"menu",
-			"bcn",
-			"<h1>"
+			"bcn"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -881,6 +879,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://extiser.github.io/amkodor/builds/",
 			"a(href=\"#\" title=\"\").structure-content-item",
 			".product-list-content-sidebar-menu",
 			"li.composition-content-ul__item",
@@ -1007,8 +1006,7 @@
 			"/images/",
 			"images",
 			"font",
-			"url(PIE.htc);",
-			"/images/"
+			"url(PIE.htc);"
 		],
 		"reverse": false,
 		"show_context": false,
